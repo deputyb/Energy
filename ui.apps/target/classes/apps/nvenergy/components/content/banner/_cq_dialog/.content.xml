@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Banner"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    helpPath="https://www.adobe.com/go/aem6_2_docs_component_en#Text &amp; Image - Sightly">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+            type="nav"/>
+        <items jcr:primaryType="nt:unstructured">
+            <image
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Image Properties"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                    margin="{Boolean}false"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <file
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/fileupload"
+                                autoStart="{Boolean}false"
+                                class="cq-droptarget"
+                                fieldLabel="Image asset"
+                                fileNameParameter="./image/fileName"
+                                fileReferenceParameter="./image/fileReference"
+                                mimeTypes="[image]"
+                                multiple="{Boolean}false"
+                                name="./image/file"
+                                title="Upload Image Asset"
+                                uploadUrl="${suffix.path}"
+                                useHTML5="{Boolean}true"/>
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                fieldLabel="Title"
+                                name="./image/jcr:title"/>
+                            <linkURL
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                fieldLabel="Link to"
+                                name="./image/linkURL"
+                                rootPath="/content"/>
+                            <alignment
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/select"
+                                fieldDescription="Image alignment position"
+                                fieldLabel="Alignment"
+                                name="./alignment">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <left
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Left"
+                                        value="left"/>
+                                    <right
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Right"
+                                        value="right"/>
+                                </items>
+                            </alignment>
+                            <size
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="cq/gui/components/authoring/dialog/sizefield"
+                                fieldLabel="Size (px)">
+                                <width
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/numberfield"
+                                    emptyText="Width"
+                                    name="./image/width"/>
+                                <height
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/numberfield"
+                                    emptyText="Height"
+                                    name="./image/height"/>
+                            </size>
+                            <resType
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/hidden"
+                                name="./image/sling:resourceType"
+                                value="foundation/components/image"/>
+                        </items>
+                    </column>
+                </items>
+            </image>
+            <accessibility
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Accessibility"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                    margin="{Boolean}false"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <alt
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                fieldDescription="Provide a textual alternative of the content and function of the image."
+                                fieldLabel="Image Alternative Text"
+                                name="./image/alt"/>
+                            <decorative
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                fieldDescription="Check if the image should be ignored by assistive technology. This applies to decorative images only."
+                                name="./image/isDecorative"
+                                text="Image is decorative"
+                                value="true"/>
+                            <deleteIsDecorative
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/hidden"
+                                name="./image/isDecorative@Delete"
+                                value="true"/>
+                        </items>
+                    </column>
+                </items>
+            </accessibility>
+            <title
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Banner Title"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                    margin="{Boolean}false"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                fieldDescription="Enter the title of the banner"
+                                fieldLabel="Title"
+                                name="./jcr:title"/>
+                            <type
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/select"
+                                fieldLabel="Type / Size"
+                                name="./type">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <def
+                                        jcr:primaryType="nt:unstructured"
+                                        text="(default)"
+                                        value=""/>
+                                    <h1
+                                        jcr:primaryType="nt:unstructured"
+                                        text="H1"
+                                        value="h1"/>
+                                    <h2
+                                        jcr:primaryType="nt:unstructured"
+                                        text="H2"
+                                        value="h2"/>
+                                    <h3
+                                        jcr:primaryType="nt:unstructured"
+                                        text="H3"
+                                        value="h3"/>
+                                    <h4
+                                        jcr:primaryType="nt:unstructured"
+                                        text="H4"
+                                        value="h4"/>
+                                </items>
+                            </type>
+                        </items>
+                    </column>
+                </items>
+            </title>
+            <button
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Button"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                    margin="{Boolean}false"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <ctatxt
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                defaultValue="LEARN MORE"
+                                fieldDescription="The text displayed in the button"
+                                fieldLabel="Button Label"
+                                name="./ctatxt"/>
+                            <ctaurl
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                fieldDescription="The location the user will be taken after clicking on the button"
+                                fieldLabel="Button URL"
+                                name="./ctaurl"
+                                rootPath="/content/NVEnergy"/>
+                            <openWindow
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                name="./openWindow"
+                                text="Open in new window"
+                                value="true"/>
+                        </items>
+                    </column>
+                </items>
+            </button>
+        </items>
+    </content>
+</jcr:root>

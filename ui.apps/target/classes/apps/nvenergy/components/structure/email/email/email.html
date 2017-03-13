@@ -1,0 +1,91 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <sly data-sly-include="partials/head.html" data-sly-unwrap/>
+        <sly data-sly-include="partials/headlibs.html" data-sly-unwrap/>
+    </head>
+    <body width="100%" bgcolor="#222222" style="margin: 0;">
+   		<center style="width: 100%; background: #222222;">
+				<div style="max-width: 650px; margin: auto;">
+                <div class="row" data-sly-resource="${'emaildetails'}"></div>
+            <div style="max-width: 650px; margin: auto;">
+                <!--[if mso]>
+            		<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
+            			<tr>
+            				<td>
+            				<![endif]-->
+            	<!-- EMAIL HEADER : BEGIN -->
+					<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 650px;">
+    				<!-- HEADER IMAGE -->
+    					<tr>
+        					<td bgcolor="#ffffff">
+								<div data-sly-resource="${'logo'}" data-sly-unwrap/>
+							</td>
+    					</tr>
+    				<!-- HEADER IMAGE END -->
+					</table>
+                <!-- Email Body : BEGIN -->
+            	<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 650px;">
+				<!-- EMAIL HEADER : END -->
+				
+                <!-- Email Body : BEGIN -->
+            	<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 650px;">
+ 
+                	<!-- 1 COLUMN TEXT BEGIN -->
+                	<tr>
+                    	<td bgcolor="#ffffff">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+                                <tr>
+                                    <td style="padding:45px 50px 40px 40px; text-align: left; font-family:  sans-serif, 'Assistant'; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color:#000;font-weight:bold;">
+                                        <div class="row" data-sly-resource="${'body'}"></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <sly data-sly-resource="${'footer'}" data-sly-unwrap/>
+                                        <div class="row" data-sly-resource="${'content' @ resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap/>
+                                    </td>
+                                </tr>
+                                <tr>
+									<td style="padding:60px 50px 40px 40px;text-align: left; font-family:  sans-serif, 'Assistant'; 
+									font-size: 15px; mso-height-rule: exactly; line-height: 20px; color:#000;font-weight:bold;">
+									<div data-sly-resource="${'footer'}" data-sly-unwrap/>
+									</td>
+								</tr>	
+                            </table>
+                        </td>
+                    </tr>
+                     <!-- 1 COLUMN TEXT END -->
+
+                    <!-- Clear Spacer : BEGIN -->
+                    <tr>
+                    	<td height="40" style="font-size: 0; line-height: 0;">
+                        	&nbsp;
+                    	</td>
+                	</tr>
+                	<!-- Clear Spacer : END -->
+                </table>
+                		<!--[if mso]>
+            			</td>
+            		</tr>
+           		 </table>
+            	<![endif]-->
+            </div>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**** IBM VIDEO VIDEO LAYOUT HTML BREAKOUT ***/ 
+
+@media only screen and (max-width: 768px) {
+.nve-box-embed-video iframe, 
+.nve-box-embed-video object, 
+.nve-box-embed-video embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+ .nve-box-embed-video {
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+}
+}
+
+
+/*** NO BOOTSTRAP RESPONSIVE VERSION (nve-large-banner-layout-2.html)  ***/
+.clearfix {
+  box-sizing: border-box;
+} 
+
+.clearfix::before,
+.clearfix::after {
+	content: " ";
+	display: table;
+	box-sizing: border-box;
+}
+.clearfix::after {
+	clear: both;
+}

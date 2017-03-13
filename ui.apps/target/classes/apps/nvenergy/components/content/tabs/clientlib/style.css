@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*** NVE ACCORDION PURE CSS RESPONSIVE  ***/
+
+
+.nve-accordion-item-wrapper {
+    margin: 20px 0;
+}
+.nve-accordion-item-wrapper .nve-accordion-item:first-child {
+    border-top: 1px solid;
+    border-color: #ccc;
+}
+.nve-accordion-item-wrapper input {
+    display: none;
+}
+.nve-accordion-item-wrapper label {
+    z-index: 20;
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+.nve-accordion-item-wrapper input:checked ~ article {
+    max-height: 2500px;
+}
+.nve-accordion-item {
+    border-bottom: 1px solid;
+    border-color: #ccc;
+    margin: 2px 0;
+}
+.nve-accordion-item h2 {
+    margin: 20px 0;
+    text-decoration: none;
+    color: #de5243;
+    font-weight: 400;
+    padding-left: 30px;
+}
+/*** ACCORDION COLUMNS ***/ 
+.nve-accordion-column-wrapper .clearfix div {
+    float: left;
+    position: relative;
+    width: 50%;
+    margin: 10px 0px 30px;
+    padding: 0 10px;
+}
+/*** TITLE ICONS CHOREOGRAPHY ***/
+.editmode .nve-accordion-item-wrapper label {
+    background: transparent url("../images/accordion-minus.png") no-repeat center left / 24px 24px;
+    content: '';
+    position: relative;
+}
+.nve-accordion-item-wrapper label {
+    background: transparent url("../images/accordion-plus.png") no-repeat center left / 24px 24px;
+    content: '';
+    position: relative;
+}
+.nve-accordion-item-wrapper input:checked + label {
+    background: transparent url("../images/accordion-minus.png") no-repeat center left / 24px 24px;
+    content: '';
+    position: relative;
+}
+/*** TITLE ICONS CHOREOGRAPHY END ***/
+/*** TRANSITIONS ***/
+.editmode  .nve-accordion-item-wrapper article {
+		max-height:none;
+		min-height:200px;
+		
+	}
+.nve-accordion-item-wrapper article {
+    margin-top: -1px;
+    overflow: hidden;
+    max-height: 0px;
+	height:auto;
+	min-height:none;
+    position: relative;
+    z-index: 10;
+    transition: max-height 0.3s ease-in-out;
+}
+.nve-accordion-item-wrapper input:checked ~ article {
+    transition: max-height 0.6s ease-in-out;
+}
+/*** TRANSITIONS END ***/
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .nve-accordion-column-wrapper .clearfix div {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Callout"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    helpPath="https://www.adobe.com/go/aem6_2_docs_component_en#Text - Sightly">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+            margin="{Boolean}false"
+            type="nav"/>
+        <items jcr:primaryType="nt:unstructured">
+            <columns
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Properties"
+                sling:resourceType="granite/ui/components/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <title
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldDescription="Title of the callout"
+                        fieldLabel="Title"
+                        name="./callouttitle"/>
+                    <style
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Style"
+                        sling:resourceType="granite/ui/components/foundation/form/select"
+                        fieldDescription="Callout Style"
+                        fieldLabel="Type/Style"
+                        name="./style">
+                        <items jcr:primaryType="nt:unstructured">
+                            <standard
+                                jcr:primaryType="nt:unstructured"
+                                text="Standard"
+                                value="nve-large-callout-layout"/>
+                            <nonstandard
+                                jcr:primaryType="nt:unstructured"
+                                text="Non-Standard"
+                                value="nve-large-callout-layout-non-standard"/>
+                        </items>
+                    </style>
+                </items>
+            </columns>
+        </items>
+    </content>
+</jcr:root>

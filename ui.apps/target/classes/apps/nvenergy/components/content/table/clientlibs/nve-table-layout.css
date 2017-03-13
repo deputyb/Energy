@@ -1,0 +1,61 @@
+/*** TABLE LAYOUT CSS ***/ 
+
+.nve-table-wrapper {	
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    width: 100%;
+    min-height: 0.01%;
+    overflow: auto;
+	}
+.nve-table-wrapper table{
+	border-collapse:collapse;
+	border-spacing:0;
+	max-width:100%; 
+	width:100%;
+	}
+.nve-table-wrapper table tbody tr:nth-of-type(2n-1){
+	background-color: #f5fbfe; 
+	}
+.nve-table-wrapper table tfoot tr {
+	background-color: #fff; 
+	}
+.nve-table-wrapper table td, .nve-table-wrapper table th {
+	font-size:inherit;
+	border-style:none;
+	border-width:0px;
+	word-break:normal;
+	text-align:center; 
+	}
+.nve-table-wrapper table td{
+	padding:10px 10px;
+	height:21px; 
+	min-width:100px; 
+	vertical-align:middle;
+			
+	}
+
+.nve-table-wrapper table td button {
+	width:100%; 
+	}
+.nve-table-wrapper table th{
+	padding:10px 10px;
+	font-weight:bold;
+	vertical-align:middle;
+	}
+.nve-table-wrapper table tfoot td {
+	text-align:left;
+}
+@media screen and (max-width: 767px) {
+	
+	.nve-table-wrapper table {
+		width: auto !important;
+		}
+		
+	.nve-table-wrapper table col {
+		width: auto !important;
+		}
+		
+	.nve-table-wrapper {	
+		overflow-x: scroll;
+		}
+	}

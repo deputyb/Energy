@@ -1,0 +1,28 @@
+<!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2016 Adobe Systems Incorporated
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
+
+<!-- check if icon or text has already been entered and display placeholder text in component if empty -->
+<div class="cq-placeholder" data-emptytext="Text Icon Component" data-sly-test="${!properties.icon && !properties.text}"></div>
+
+<div class="row">
+	<div class="col-sm-12">
+		<p class="callout">
+			<div class="${properties.icon} nve-icon-${properties.alignment}"></div>
+			<div data-sly-resource="${'.' @ resourceType='wcm/foundation/components/text', wcmmode='disabled'}" data-sly-unwrap></div>
+		</p>
+	</div>
+</div>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl" activate="activate">
+        <implementation class="com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.nvenergy.nvenergy.core.services.WeatherAlertConfig"/>
+        </service>
+        <property name="weather_alerts_node_path" value="/content/NVEnergy/en/systempages/weatheralert/jcr:content/content/weatheralert"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl"/>
+    </scr:component>
+</components>

@@ -1,0 +1,329 @@
+.nve-icon {
+  font-size: 4em; }
+
+.nve-icon-name {
+  font-size: 1.2em; }
+
+
+@font-face {
+  font-family: 'nve-iconset';
+  src: url("/etc/designs/fonts/nve-iconset.eot?xw55kk");
+  src: url("/etc/designs/fonts/nve-iconset.eot?xw55kk#iefix") format("embedded-opentype"), url("/etc/designs/fonts/nve-iconset.ttf?xw55kk") format("truetype"), url("/etc/designs/fonts/nve-iconset.woff?xw55kk") format("woff"), url("/etc/designs/fonts/nve-iconset.svg?xw55kk#nve-iconset") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="nve-icon-"], [class*=" nve-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'nve-iconset' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.nve-icon-accounts-01:before {
+  content: "\e900"; }
+
+.nve-icon-accounts-02:before {
+  content: "\e901"; }
+
+.nve-icon-alert-01:before {
+  content: "\e902"; }
+
+.nve-icon-alert-02:before {
+  content: "\e903"; }
+
+.nve-icon-alert-03:before {
+  content: "\e904"; }
+
+.nve-icon-alert-04:before {
+  content: "\e905"; }
+
+.nve-icon-alert-05:before {
+  content: "\e906"; }
+
+.nve-icon-alert-06:before {
+  content: "\e907"; }
+
+.nve-icon-alert-07:before {
+  content: "\e908"; }
+
+.nve-icon-arrow:before {
+  content: "\e909"; }
+
+.nve-icon-billing-01:before {
+  content: "\e90a"; }
+
+.nve-icon-billing-02:before {
+  content: "\e90b"; }
+
+.nve-icon-billing-03:before {
+  content: "\e90c"; }
+
+.nve-icon-date-01:before {
+  content: "\e90d"; }
+
+.nve-icon-date-02:before {
+  content: "\e90e"; }
+
+.nve-icon-date-03:before {
+  content: "\e90f"; }
+
+.nve-icon-date-04:before {
+  content: "\e910"; }
+
+.nve-icon-deadline-01:before {
+  content: "\e911"; }
+
+.nve-icon-deadline-02:before {
+  content: "\e912"; }
+
+.nve-icon-deadline-03:before {
+  content: "\e913"; }
+
+.nve-icon-deadline-04:before {
+  content: "\e914"; }
+
+.nve-icon-deadline-05:before {
+  content: "\e915"; }
+
+.nve-icon-dog-01:before {
+  content: "\e916"; }
+
+.nve-icon-dog-02:before {
+  content: "\e917"; }
+
+.nve-icon-dog-03:before {
+  content: "\e918"; }
+
+.nve-icon-dog-04:before {
+  content: "\e919"; }
+
+.nve-icon-energy-chart-01:before {
+  content: "\e91a"; }
+
+.nve-icon-energy-chart-02:before {
+  content: "\e91b"; }
+
+.nve-icon-energy-chart-03:before {
+  content: "\e91c"; }
+
+.nve-icon-energy-chart-04:before {
+  content: "\e91d"; }
+
+.nve-icon-energy-chart-05:before {
+  content: "\e91e"; }
+
+.nve-icon-energy-chart-06:before {
+  content: "\e91f"; }
+
+.nve-icon-info:before {
+  content: "\e920"; }
+
+.nve-icon-key-01:before {
+  content: "\e921"; }
+
+.nve-icon-key-02:before {
+  content: "\e922"; }
+
+.nve-icon-key-03:before {
+  content: "\e923"; }
+
+.nve-icon-key-04:before {
+  content: "\e924"; }
+
+.nve-icon-key-05:before {
+  content: "\e925"; }
+
+.nve-icon-key-06:before {
+  content: "\e926"; }
+
+.nve-icon-key-07:before {
+  content: "\e927"; }
+
+.nve-icon-key-08:before {
+  content: "\e928"; }
+
+.nve-icon-key-09:before {
+  content: "\e929"; }
+
+.nve-icon-key-10:before {
+  content: "\e92a"; }
+
+.nve-icon-leaf:before {
+  content: "\e92b"; }
+
+.nve-icon-lock-01:before {
+  content: "\e92c"; }
+
+.nve-icon-moving-center-01:before {
+  content: "\e92d"; }
+
+.nve-icon-moving-center-02:before {
+  content: "\e92e"; }
+
+.nve-icon-moving-center-03:before {
+  content: "\e92f"; }
+
+.nve-icon-moving-center-04:before {
+  content: "\e930"; }
+
+.nve-icon-moving-center-05:before {
+  content: "\e931"; }
+
+.nve-icon-panel:before {
+  content: "\e932"; }
+
+.nve-icon-payment-01:before {
+  content: "\e933"; }
+
+.nve-icon-payment-02:before {
+  content: "\e934"; }
+
+.nve-icon-payment-03:before {
+  content: "\e935"; }
+
+.nve-icon-payment-04:before {
+  content: "\e936"; }
+
+.nve-icon-payment-05:before {
+  content: "\e937"; }
+
+.nve-icon-payment-06:before {
+  content: "\e938"; }
+
+.nve-icon-payment-07:before {
+  content: "\e939"; }
+
+.nve-icon-payment-08:before {
+  content: "\e93a"; }
+
+.nve-icon-phone:before {
+  content: "\e93b"; }
+
+.nve-icon-plug:before {
+  content: "\e93c"; }
+
+.nve-icon-power-outage-01:before {
+  content: "\e93d"; }
+
+.nve-icon-power-outage-02:before {
+  content: "\e93e"; }
+
+.nve-icon-power-outage-03:before {
+  content: "\e93f"; }
+
+.nve-icon-power-outage-04:before {
+  content: "\e940"; }
+
+.nve-icon-power-outage-05:before {
+  content: "\e941"; }
+
+.nve-icon-power-outage-06:before {
+  content: "\e942"; }
+
+.nve-icon-power-outage-07:before {
+  content: "\e943"; }
+
+.nve-icon-power-outage-08:before {
+  content: "\e944"; }
+
+.nve-icon-power-outage-09:before {
+  content: "\e945"; }
+
+.nve-icon-power-outage-10:before {
+  content: "\e946"; }
+
+.nve-icon-registration-01:before {
+  content: "\e947"; }
+
+.nve-icon-registration-02:before {
+  content: "\e948"; }
+
+.nve-icon-registration-03:before {
+  content: "\e949"; }
+
+.nve-icon-start-stop-service-01:before {
+  content: "\e94a"; }
+
+.nve-icon-start-stop-service-02:before {
+  content: "\e94b"; }
+
+.nve-icon-start-stop-service-03:before {
+  content: "\e94c"; }
+
+.nve-icon-start-stop-service-04:before {
+  content: "\e94d"; }
+
+.nve-icon-start-stop-service-05:before {
+  content: "\e94e"; }
+
+.nve-icon-start-stop-service-06:before {
+  content: "\e94f"; }
+
+.nve-icon-start-stop-service-07:before {
+  content: "\e950"; }
+
+.nve-icon-start-stop-service-08:before {
+  content: "\e951"; }
+
+.nve-icon-start-stop-service-09:before {
+  content: "\e952"; }
+
+.nve-icon-start-stop-service-10:before {
+  content: "\e953"; }
+
+.nve-icon-start-stop-service-11:before {
+  content: "\e954"; }
+
+.nve-icon-start-stop-service-12:before {
+  content: "\e955"; }
+
+.nve-icon-start-stop-service-13:before {
+  content: "\e956"; }
+
+.nve-icon-start-stop-service-14:before {
+  content: "\e957"; }
+
+.nve-icon-start-stop-service-15:before {
+  content: "\e958"; }
+
+.nve-icon-thermostat-01:before {
+  content: "\e959"; }
+
+.nve-icon-thermostat-02:before {
+  content: "\e95a"; }
+
+.nve-icon-thermostat-03:before {
+  content: "\e95b"; }
+
+.nve-icon-thermostat-04:before {
+  content: "\e95c"; }
+
+.nve-icon-thermostat-05:before {
+  content: "\e95d"; }
+
+.nve-icon-trash:before {
+  content: "\e95e"; }
+
+.accent-color-lightGray {
+  color: #F6F6F8; }
+
+.accent-color-Gray {
+  color: #A2A3A7; }
+
+.accent-color-darkGray {
+  color: #808285; }
+
+.accent-color-navyBlue {
+  color: #00233E; }
+
+.accent-color-yellow {
+  color: #F9CD23; }
+
+.accent-color-red {
+  color: #DE5243; }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl">
+    <OCD id="com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl" name="%com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl.name" description="%com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl.description">
+        <AD id="error_messages_node_path" type="String" default="/etc/acs-commons/lists/errormessages/jcr:content/list" name="%com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl.error_messages_node_path.name" description="%com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl.error_messages_node_path.description"/>
+    </OCD>
+    <Designate pid="com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl">
+        <Object ocdref="com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl"/>
+    </Designate>
+</metatype:MetaData>

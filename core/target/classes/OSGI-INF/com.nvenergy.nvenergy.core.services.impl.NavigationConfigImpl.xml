@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl" activate="activate">
+        <implementation class="com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.nvenergy.nvenergy.core.services.NavigationConfig"/>
+        </service>
+        <property name="nav_root_path" value="/content/NVEnergy/en"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl"/>
+    </scr:component>
+</components>

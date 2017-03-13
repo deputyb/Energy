@@ -1,0 +1,46 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<p data-sly-test.author="${wcmmode.edit || wcmmode.design}">Edit table</p>
+<div class="nve-table-wrapper">
+	<table data-sly-use.table="table.js" border="2px">
+        <thead data-sly-test="${table.tableheader}">
+            <tr>
+                <sly data-sly-list.col="${table.colArr}">
+                    <th><div data-sly-resource="${'par-th{0}' @ format=colList.index, resourceType='wcm/foundation/components/parsys'}" />
+                    </th>
+                </sly>
+            </tr>
+        </thead>
+        <tbody>
+            <sly data-sly-list.row="${table.rowArr}">
+                <tr>
+                    <sly data-sly-list.col="${table.colArr}">
+                        <td style="width:200px;"><div data-sly-resource="${'par{0}{1}' @ format=[rowList.index,colList.index], resourceType='wcm/foundation/components/parsys'}" />
+                        </td>
+                    </sly>
+                </tr>
+            </sly>
+        </tbody>
+        <tfoot data-sly-test="${table.tablefooter}"> 
+            <tr>
+                <sly data-sly-list.col="${table.colArr}">
+                    <td><div data-sly-resource="${'par-tf{0}' @ format=colList.index, resourceType='wcm/foundation/components/parsys'}" />
+                    </td>
+                </sly>
+            </tr>
+        </tfoot>
+	</table>
+</div>

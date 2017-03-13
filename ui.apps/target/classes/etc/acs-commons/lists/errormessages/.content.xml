@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/acs-commons"
+        cq:lastModified="{Date}2016-12-04T18:13:59.047-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs-commons/templates/utilities/genericlist"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Error Messages"
+        sling:resourceType="acs-commons/components/utilities/genericlist">
+        <list
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <item
+                jcr:created="{Date}2016-11-02T13:46:14.337-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:23:17.781-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1001"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account has been closed."/>
+            <item_197135874
+                jcr:created="{Date}2016-11-02T13:46:15.469-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:23:46.179-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1002"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&lt;BR>Please contact the Final Bills Department at VALUE_1 or VALUE_2 to make arrangements."/>
+            <item_2135885853
+                jcr:created="{Date}2016-11-02T13:46:16.336-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:24:39.768-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1003"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="You may make your payment via &lt;A href=&quot;VALUE_1&quot; target=&quot;_parent&quot;>&lt;B>&lt;U>Online Payment&lt;/B>&lt;/U>&lt;/A> at a &lt;A href=&quot;VALUE_2&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Shop and Pay&lt;/B>&lt;/U> &lt;/A> location, by phone through &lt;A href=&quot;VALUE_3&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Western Union Speedpay &lt;/B>&lt;/U> &lt;/A> which accepts credit or debit cards as well as check-by-phone payments for a processing fee."/>
+            <item_1223127409
+                jcr:created="{Date}2016-11-02T13:46:17.524-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:24:54.191-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1004"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that this account has no balance due. No payment arrangement is necessary."/>
+            <item_202357351
+                jcr:created="{Date}2016-11-02T13:46:19.977-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:25:03.963-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1005"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that this account is active on one of our customer programs such as Equal Payment Plan, Select Your Due Date or Electric Check."/>
+            <item_427672214
+                jcr:created="{Date}2016-11-02T13:46:18.568-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:25:12.890-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1006"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate there are charges on this account that have not yet billed. After you have received your billing statement, you may enroll on the Equal Payment Plan."/>
+            <item_2001757140
+                jcr:created="{Date}2016-11-02T13:46:21.818-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:27:36.470-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1007"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="For further assistance, please contact Customer Service at VALUE_1 or VALUE_2."/>
+            <item_615225264
+                jcr:created="{Date}2016-11-02T13:46:41.291-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:27:48.439-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1008"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that your service has been or is scheduled for disconnection. To reconnect service or to avoid disconnection, &lt;A href=&quot;VALUE_1&quot; target=&quot;_parent&quot;>&lt;B>&lt;U>please pay immediately&lt;/B>&lt;/U>&lt;/A>."/>
+            <item_2111112867
+                jcr:created="{Date}2016-11-02T13:46:23.597-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:28:02.393-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1009"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Your total balance is VALUE_1."/>
+            <item_793142286
+                jcr:created="{Date}2016-11-02T13:46:43.053-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:28:23.212-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1010"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Your current bill VALUE_1 due VALUE_2"/>
+            <item_1001785824
+                jcr:created="{Date}2016-11-02T13:46:44.684-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:28:38.343-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1011"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate your service has been or is scheduled for disconnection. Please contact NV Energy at VALUE_1 immediately."/>
+            <item_1097771438
+                jcr:created="{Date}2016-11-02T13:46:48.053-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:28:49.704-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1012"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that there was a returned check on this account within the last 30 days."/>
+            <item_1244104813
+                jcr:created="{Date}2016-11-02T13:46:46.196-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:29:02.575-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1013"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="You may make your payment via VALUE_1 or at a VALUE_2 location."/>
+            <item_1396485543
+                jcr:created="{Date}2016-11-02T13:46:52.832-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:29:13.233-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1014"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Your total balance is VALUE_1. &lt;BR> Your current bill VALUE_2 due VALUE_3."/>
+            <item_1751483271
+                jcr:created="{Date}2016-11-02T13:46:50.727-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:29:25.229-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1015"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="You may make your payment via &lt;A href=&quot;VALUE_1&quot; target=&quot;_parent&quot;>&lt;B>&lt;U>Online Payment&lt;/B>&lt;/U>&lt;/A> or at a &lt;A href=&quot;VALUE_2&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Shop and Pay Location &lt;/B>&lt;/U>&lt;/A>"/>
+            <item_1470188267
+                jcr:created="{Date}2016-11-02T13:46:57.914-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:29:37.308-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1016"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that we have not received a payment on this account within the last 45 days."/>
+            <item_471065948
+                jcr:created="{Date}2016-12-04T17:29:42.423-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:30:21.499-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1017"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Last Payment Amount : VALUE_1.&lt;BR> Last Payment Date : VALUE_2."/>
+            <item_337149834
+                jcr:created="{Date}2016-12-04T17:29:48.577-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:30:36.724-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1018"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="No payment arrangement is necessary at this time."/>
+            <item_311524003
+                jcr:created="{Date}2016-12-04T17:29:51.069-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:30:48.551-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1019"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="This account is coded for special handling."/>
+            <item_853281103
+                jcr:created="{Date}2016-12-04T17:29:53.869-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:31:00.739-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1020"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Last Payment Amount : VALUE_1."/>
+            <item_729432798
+                jcr:created="{Date}2016-12-04T17:29:56.600-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:31:10.956-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1021"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Last Payment Date : VALUE_1."/>
+            <item_1637286538
+                jcr:created="{Date}2016-12-04T17:29:59.091-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:31:21.987-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1022"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account is already inactive. Service was disconnected on VALUE_1."/>
+            <item_1694886814
+                jcr:created="{Date}2016-12-04T17:31:27.345-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:32:07.480-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="023"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that this account is not active."/>
+            <item_1885996200
+                jcr:created="{Date}2016-12-04T17:31:29.534-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:32:19.337-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1024"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="A request to stop service can not be submitted for this account."/>
+            <item_1819988461
+                jcr:created="{Date}2016-12-04T17:31:31.752-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:32:31.976-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1025"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that there is already a request to stop service for this account."/>
+            <item_194722750
+                jcr:created="{Date}2016-12-04T17:31:35.200-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:32:46.356-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1026"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="We are unable to process your request.Your stop service order must be coordinated with an existing request at this location. Please contact NV Energy at VALUE_1 or VALUE_2 for assistance."/>
+            <item_1638034847
+                jcr:created="{Date}2016-12-04T17:31:37.293-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:32:59.428-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1027"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="For assistance on your stop service request, please contact our New Development Center at VALUE_1."/>
+            <item_1541614044
+                jcr:created="{Date}2016-12-04T17:31:39.629-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:33:10.309-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1028"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="For assistance on your stop service request, please contact our New Development Center at VALUE_1 or VALUE_2."/>
+            <item_1346583775
+                jcr:created="{Date}2016-12-04T17:31:42.690-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:33:22.405-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1029"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="For assistance on your stop service request, please contact NV Energy at VALUE_1 or VALUE_2."/>
+            <item_510513648
+                jcr:created="{Date}2016-12-04T17:31:45.352-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:33:32.325-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1030"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="This account has a temporary pole."/>
+            <item_252033519
+                jcr:created="{Date}2016-12-04T17:31:48.828-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:33:41.971-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1031"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="A private area light or street light is installed at this service address."/>
+            <item_427407973
+                jcr:created="{Date}2016-12-04T17:31:55.162-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:34:49.235-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1032"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Use this form if you would like to establish &lt;B>RESIDENTIAL&lt;/B> service. If you are moving and would like to transfer service  to your new home, click &lt;A href=&quot;VALUE_1&quot; target=&quot;_parent&quot;>here&lt;/A>."/>
+            <item_810285694
+                jcr:created="{Date}2016-12-04T17:33:59.387-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:35:03.109-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1033"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="If you are a &lt;B>BUSINESS&lt;/B> customer, please call VALUE_1 or VALUE_2."/>
+            <item_1134697742
+                jcr:created="{Date}2016-12-04T17:34:01.596-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:35:15.505-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1034"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Provide your full legal name and the information requested below."/>
+            <item_708223540
+                jcr:created="{Date}2016-12-04T17:34:06.464-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:35:25.379-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1035"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Please complete the section below if you would like to add a co-customer to your new account."/>
+            <item_8925632
+                jcr:created="{Date}2016-12-04T17:34:24.359-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:35:38.029-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1036"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Enter the address where you would like to start service."/>
+            <item_901578506
+                jcr:created="{Date}2016-12-04T17:34:26.539-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:35:47.678-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1037"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Use this form if you would like to establish &lt;B>RESIDENTIAL&lt;/B> service. If you are moving and would like to transfer service to your new home, or if you are a &lt;B>BUSINESS&lt;/B> customer please contact Customer Service at VALUE_1 OR VALUE_2."/>
+            <item_1629324124
+                jcr:created="{Date}2016-12-04T17:34:28.820-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:36:00.984-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1038"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Please verify that the primary customer's Social Security Number, First Name and Last Name entered are correct."/>
+            <item_1037765062
+                jcr:created="{Date}2016-12-04T17:34:30.657-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:36:12.261-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1039"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="We are unable to verify the information provided for the primary customer. Please contact Customer Services at VALUE_1 or VALUE_2 for assistance with your Start Service request."/>
+            <item_1027332567
+                jcr:created="{Date}2016-12-04T17:36:15.308-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:37:32.115-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1040"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Please verify that the Co-customer's Social Security Number, First Name and Last Name entered are correct."/>
+            <item_952142524
+                jcr:created="{Date}2016-12-04T17:36:17.097-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:37:44.102-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1041"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="We are unable to verify the co-customer information you provided, however we will continue to process your Start Service request. If you would like to add the co-customer, please contact Customer Services at VALUE_1 or VALUE_2 for assistance. Please click the NEXT button to continue."/>
+            <item_857073123
+                jcr:created="{Date}2016-12-04T17:36:18.934-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:37:54.431-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1042"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="We have found multiple matches for the service address entered. Please enter an apartment or unit number so we can locate the specific address. If no apartment or unit number applies, please contact Customer Services at VALUE_1 or VALUE_2 for assistance."/>
+            <item_872254737
+                jcr:created="{Date}2016-12-04T17:36:23.891-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:38:06.460-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1043"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate you have one or more active accounts with a total outstanding balance of VALUE_1 of which VALUE_2 is past due. The past due balance must be paid before we can process your request."/>
+            <item_884819112
+                jcr:created="{Date}2016-12-04T17:36:26.509-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:38:16.302-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1044"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="You may make your payment at a &lt;A href=&quot;VALUE_1&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Shop and Pay &lt;/B>&lt;/U> &lt;/A> location, by phone through &lt;A href=&quot;VALUE_2&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Western Union Speedpay &lt;/B>&lt;/U> &lt;/A> which accepts credit or debit cards as well as check-by-phone payments for a processing fee."/>
+            <item_1153945326
+                jcr:created="{Date}2016-12-04T17:36:29.236-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:38:27.370-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1045"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate you have one or more inactive accounts with a total outstanding balance of VALUE_1. This balance must be paid before we can process your request."/>
+            <item_947973447
+                jcr:created="{Date}2016-12-04T17:36:32.207-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:38:44.876-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1046"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that you have a bad debt balance of VALUE_1. This balance must be paid before we can process your request.&lt;BR>&lt;BR> Please contact our Customer Service Department at VALUE_2 or VALUE_3 for more information."/>
+            <item_1050261149
+                jcr:created="{Date}2016-12-04T17:36:34.797-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:38:56.714-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1047"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="No service address was found. Please verify the address entered is correct."/>
+            <item_1928919758
+                jcr:created="{Date}2016-12-04T17:36:38.849-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:39:08.572-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1048"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="You have an existing request to start service at this address."/>
+            <item_1608586112
+                jcr:created="{Date}2016-12-04T17:40:10.051-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:40:44.727-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1049"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records show that there is no meter installed at this address. Please contact Customer Service at VALUE_1 or VALUE_2 for assistance."/>
+            <item_972277069
+                jcr:created="{Date}2016-12-04T17:40:12.053-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:40:54.177-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1050"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Additional information is required. Please contact Customer Service at VALUE_1 or VALUE_2 for assistance."/>
+            <item_255198034
+                jcr:created="{Date}2016-12-04T17:40:13.800-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:41:04.129-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1051"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this is a commercial address. We are unable to process your request. Please contact Customer Service at VALUE_1 or VALUE_2 for assistance."/>
+            <item_631596765
+                jcr:created="{Date}2016-12-04T17:40:17.904-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:41:13.335-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1052"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate there is a street light installed at this service address. Please contact Customer Service at VALUE_1 or VALUE_2 for assistance."/>
+            <item_520068299
+                jcr:created="{Date}2016-12-04T17:40:20.174-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:41:28.166-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1054"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records show that this address is for mobile home. City and County codes require a safety inspection before we can connect service for all mobile homes relocated to a new site.&lt;BR>&lt;BR>&lt;span id=&quot;MobileHomeTxt&quot;>Has your mobile home recently been relocated to this address?&lt;/span>"/>
+            <item_639254594
+                jcr:created="{Date}2016-12-04T17:40:22.981-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:41:42.308-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1055"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&lt;div id=&quot;MBLHMDiv&quot; style=&quot;visibility:hidden; height:0; color:#333399&quot;> &lt;B>Additional information is required for mobile homes moved to a new address. Please contact Customer Services at VALUE_1 or VALUE_2 for assistance.&lt;/B>&lt;/div>"/>
+            <item_31697058
+                jcr:created="{Date}2016-12-04T17:40:26.316-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:42:05.834-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1056"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="An appointment must be set up to connect your gas service. Please contact Customer Service at VALUE_1 or VALUE_2 for assistance."/>
+            <item_57685477
+                jcr:created="{Date}2016-12-04T17:40:29.654-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:42:19.684-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1057"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="An appointment must be set up to connect your gas service. Please contact Customer Service at VALUE_1 or VALUE_2 for assistance."/>
+            <item_1705280588
+                jcr:created="{Date}2016-12-04T17:42:25.778-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:43:06.760-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1058"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records show there are additional service requests at this address. Please contact Customer Service at VALUE_1 or VALUE_2 for assistance with your start service request."/>
+            <item_1688434629
+                jcr:created="{Date}2016-12-04T17:42:28.232-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:43:17.547-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1059"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&lt;B>The service address you are moving to is on the Residential Time-of-Use Rate program. To learn more about Time-of-Use, &lt;A href=&quot;VALUE_1&quot; target=&quot;_blank&quot;>click here&lt;/A>.&lt;BR>&lt;BR> &lt;span id=&quot;TOUTxt&quot;> Would you like to sign up for this program?&lt;/span>&lt;/B>"/>
+            <item_1391859120
+                jcr:created="{Date}2016-12-04T17:42:30.540-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:43:27.969-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1060"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="A co-customer is an individual 18 years or older who joins in the application for service and shall be jointly liable for the proper use of the service and for the payment of utility bills."/>
+            <item_215235895
+                jcr:created="{Date}2016-12-04T17:42:34.023-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:43:51.269-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1061"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Your existing NV Energy account is password protected. Please enter the password on your account and click Continue."/>
+            <item_99815411
+                jcr:created="{Date}2016-12-04T17:42:37.869-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:44:03.398-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1062"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="If you do not know the password please select Cancel."/>
+            <item_231882301
+                jcr:created="{Date}2016-12-04T17:42:40.664-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:44:14.652-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1063"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Would you like to add this password to your new account?"/>
+            <item_1368734122
+                jcr:created="{Date}2016-12-04T17:42:44.863-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:44:24.685-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1064"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The NV Energy account password that you provided was incorrect. Please contact Customer Services at VALUE_1 or VALUE_2 for assistance on your Start Service Request."/>
+            <item_1057408805
+                jcr:created="{Date}2016-12-04T17:42:48.988-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:44:34.081-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1065"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="We need permission to verify your identfication. If we perform a credit check, we may be able to waive a deposit. A credit check will cause an inquiry to be recorded on your credit history. If you deny a credit check, a deposit will automatically be assessed."/>
+            <item_1030018258
+                jcr:created="{Date}2016-12-04T17:44:37.947-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:45:18.759-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1066"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Tell us where we should send your monthly utility bills."/>
+            <item_1932275904
+                jcr:created="{Date}2016-12-04T17:44:40.775-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:45:33.265-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1067"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Are there any conditions that would restrict access to your meter?"/>
+            <item_1816571091
+                jcr:created="{Date}2016-12-04T17:44:43.164-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:47:53.020-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1068"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Is anyone at this address using life support equipment that requires electricity?"/>
+            <item_917672136
+                jcr:created="{Date}2016-12-04T17:44:47.016-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:48:05.953-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1069"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Is there anyone living at this address 62 years of age or older?"/>
+            <item_281292552
+                jcr:created="{Date}2016-12-04T17:44:50.131-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:48:17.498-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1070"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Does anyone living at this house have a disability for which they receive government benefits?"/>
+            <item_1652964158
+                jcr:created="{Date}2016-12-04T17:44:53.535-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:48:30.319-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1071"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="We are unable to process your request for the Service Start date you selected. Please contact Customer Service at VALUE_1 or VALUE_2 for assistance."/>
+            <item_1341979567
+                jcr:created="{Date}2016-12-04T17:44:57.299-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:48:41.031-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1072"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="A Stop Service request has been scheduled for this address for VALUE_1. Press OK if you would like to start service on this date or CANCEL if you would like to select another date."/>
+            <item_2125422190
+                jcr:created="{Date}2016-12-04T17:45:05.651-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:48:53.860-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1073"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;&lt;div id=&quot;&quot;LifeSupportDiv&quot;&quot; style=&quot;&quot;visibility:hidden; height:0; color:#333399&quot;&quot;> &lt;B>Medical forms will be sent by certified mail to your current mailing address. Please complete, sign and return the forms within the next 5 days. Your account will be updated once we have recieved and verified your information.&lt;/B>&lt;/div>                           &lt;SCRIPT language=&quot;&quot;JavaScript&quot;&quot;> var browser = navigator.appName; if(browser != &quot;&quot;Microsoft Internet Explorer&quot;&quot;){                            document.write('&lt;br>&lt;br>&lt;br>'); }&lt;/SCRIPT>&quot;"/>
+            <item_545450781
+                jcr:created="{Date}2016-12-04T17:45:01.870-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:49:06.860-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1074"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;&lt;div id=&quot;&quot;GovtBenifits&quot;&quot; style=&quot;&quot;visibility:hidden; height:0; color:#333399&quot;&quot;> &lt;B>Please fax a notarized copy of a government issued photo ID and proof of residency and proof of disability payments to VALUE_1. Your account will be updated once we have received and verified your information.&lt;/B>&lt;/div>                          &lt;SCRIPT language=&quot;&quot;JavaScript&quot;&quot;> var browser = navigator.appName; if(browser != &quot;&quot;Microsoft Internet Explorer&quot;&quot;){                            document.write('&lt;br>&lt;br>'); }&lt;/SCRIPT>&quot;"/>
+            <item_264624912
+                jcr:created="{Date}2016-12-04T17:49:11.020-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:49:51.316-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1075"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The following statement if checked shall indicate that the customer wishes to sign up for Paperless billing."/>
+            <item_676399159
+                jcr:created="{Date}2016-12-04T17:49:14.120-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:50:01.375-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1076"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Your 9 digit social security number is required to process your transaction and will not be shared."/>
+            <item_1741437862
+                jcr:created="{Date}2016-12-04T17:49:17.160-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:50:14.181-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1077"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The co-customer's 9 digit social security number is required to verify the co-customer's identity."/>
+            <item_1412567169
+                jcr:created="{Date}2016-12-04T17:49:20.104-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:50:25.219-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1078"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;Our records indicate that the co-customer has a bad debt balance of VALUE_1. This balance must be paid in full before we can add the co-customer to the account.  Please contact our Customer Service Department at VALUE_2 or VALUE_3 for more information.&quot;"/>
+            <item_787568189
+                jcr:created="{Date}2016-12-04T17:49:22.980-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:50:36.753-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1079"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The Start Date may not be today's date or past date. Please select another date."/>
+            <item_2019087909
+                jcr:created="{Date}2016-12-04T17:49:26.600-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:50:46.749-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1080"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The Start Date may not fall on the weekend. Please select another date."/>
+            <item_1984326334
+                jcr:created="{Date}2016-12-04T17:49:31.144-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:50:59.321-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1081"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The Start Date cannot be scheduled greater than 60 days in advance. Please select another date."/>
+            <item_952703575
+                jcr:created="{Date}2016-12-04T17:49:35.691-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:51:09.643-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1082"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="A Stop service request has been scheduled for the same address for VALUE_1. Please select a start date on or after this date."/>
+            <item_667402852
+                jcr:created="{Date}2016-12-04T17:51:20.242-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:51:58.910-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1083"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The Start Date may not fall on a holiday. Please select another date."/>
+            <item_1601893172
+                jcr:created="{Date}2016-12-04T17:51:22.408-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:52:11.989-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1084"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The Zip Code entered is invalid.  Please enter a 5 digit number."/>
+            <item_1513249725
+                jcr:created="{Date}2016-12-04T17:51:24.778-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:52:23.820-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1085"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Error encountered. Please close your browser and start again."/>
+            <item_533414619
+                jcr:created="{Date}2016-12-04T17:51:27.055-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:52:36.109-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1086"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Your Session is timed out. Please start again."/>
+            <item_1737492044
+                jcr:created="{Date}2016-12-04T17:51:29.541-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:52:45.564-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1087"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate you are already receiving service at this address. Please contact Customer Services at VALUE_1 or VALUE_2 for assistance."/>
+            <item_538432766
+                jcr:created="{Date}2016-12-04T17:51:32.044-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:53:02.156-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1088"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;We will continue to process your Start Service request however we are unable to verify your co-customer information. If you would like to add a co-customer to your account, please fax a notarized copy of the following to VALUE_1:       1. Two forms of valid identification      2. A contact number      3. The new service address   Your request will be processed once we have received and verified your information.   Please contact Customer Services at VALUE_2 or VALUE_3 if you have further questions.&quot;"/>
+            <item_1597590223
+                jcr:created="{Date}2016-12-04T17:51:34.622-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:53:16.978-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1089"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;Sign me up for &lt;A href=&quot;&quot;VALUE_1&quot;&quot; target=&quot;&quot;_blank&quot;&quot;>&lt;B>Paperless Billing.&lt;/B>&lt;/A>I want to recieve my monthly billing statement electronically via the MyAccount web service.    &lt;br>&lt;br>&lt;b>&lt;FONT color=BLUE> Once you have submitted your request, you must register for MyAccount to complete your enrollment in Paperless Billing.&lt;/FONT>&lt;/b>&quot;"/>
+            <item_1905437769
+                jcr:created="{Date}2016-12-04T17:51:38.216-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:53:28.449-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1090"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that you are enrolled in our Multi-Account Service Program.  Please visit our &lt;A href=&quot;VALUE_1&quot; target=&quot;_blank&quot;> &lt;B> Multi-Account Service Center &lt;/B>&lt;/A> to place your service request."/>
+            <item_1084493102
+                jcr:created="{Date}2016-12-04T17:51:41.389-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:53:39.049-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1091"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that you are enrolled in our Multi-Account Service Program however your online privileges have been revoked. Please contact Customer Services at VALUE_1 or VALUE_2 for assistance with your Start Service request."/>
+            <item_485099607
+                jcr:created="{Date}2016-12-04T17:51:46.116-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:53:56.504-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1092"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="There is a pending payment on one or more of your accounts that has been scheduled for a future date. To process your Start Service request, your payment(s) must be scheduled for today or tomorrow."/>
+            <item_2129046676
+                jcr:created="{Date}2016-12-04T17:51:48.982-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:54:11.898-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1093"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="We are unable to verify your identity. For further assistance with your Start Service Request, please contact Customer Service at VALUE_1 or VALUE_2."/>
+            <item_1988600078
+                jcr:created="{Date}2016-12-04T17:54:21.924-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:54:58.879-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1094"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate your current account is already inactive. Service was disconnected on VALUE_1."/>
+            <item_1837599315
+                jcr:created="{Date}2016-12-04T17:54:24.024-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:55:17.522-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1095"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Click &lt;A href=&quot;VALUE_1&quot; target=&quot;_parent&quot;>here&lt;/A> if you would like to start service at a new address."/>
+            <item_615929546
+                jcr:created="{Date}2016-12-04T17:54:26.423-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:55:30.061-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1096"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="A request for Transfer service cannot be submitted for this account."/>
+            <item_92990328
+                jcr:created="{Date}2016-12-04T17:54:28.462-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:56:01.053-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1097"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate your service has been or is scheduled for disconnection. Please contact NV Energy at 702-402-5555 immediately."/>
+            <item_906698743
+                jcr:created="{Date}2016-12-04T17:54:30.506-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:56:22.119-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1098"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="You may make your payment via &lt;a href=&quot;VALUE_1&quot; target=&quot;_parent&quot;>&lt;b>&lt;u>online payment&lt;/b>&lt;/u>&lt;/a> at a &lt;A href=&quot;VALUE_2&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Shop and Pay &lt;/B>&lt;/U> &lt;/A>location, by phone through &lt;A href=&quot;VALUE_3&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Western Union Speedpay &lt;/B>&lt;/U> &lt;/A> which accepts credit or debit cards as well as check-by-phone payments for a processing fee."/>
+            <item_2089365210
+                jcr:created="{Date}2016-12-04T17:54:33.911-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:56:36.156-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1099"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that the co-customer has a bad debt balance of $VALUE_1. This balance must be paid in full before we can process your request."/>
+            <item_863420271
+                jcr:created="{Date}2016-12-04T17:54:35.668-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:56:46.823-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1100"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this is a commercial account."/>
+            <item_111206703
+                jcr:created="{Date}2016-12-04T17:54:37.557-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:57:11.411-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1101"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="For assistance on your service request, please contact NV Energy at VALUE_1 or VALUE_2."/>
+            <item_2045242692
+                jcr:created="{Date}2016-12-04T17:54:40.896-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:57:30.477-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1102"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="There is a pending payment on one or more of your accounts that has been scheduled for a future date. To process your request, your payment must be scheduled for today or tomorrow."/>
+            <item_2135994417
+                jcr:created="{Date}2016-12-04T17:57:37.573-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:58:17.737-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1103"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Please provide a current contact number."/>
+            <item_1201387240
+                jcr:created="{Date}2016-12-04T17:57:41.017-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:58:27.816-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1104"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Your existing NV Energy account is password protected.  Would you like to add this password to your new account?"/>
+            <item_1314416710
+                jcr:created="{Date}2016-12-04T17:57:44.160-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:59:19.116-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1105"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="For assistance on your service request, please contact NV Energy at VALUE_1."/>
+            <item_92957048
+                jcr:created="{Date}2016-12-04T17:57:49.212-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:59:09.917-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1106"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate that you have a bad debt balance of VALUE_1. This balance must be paid before we can process your request."/>
+            <item_1900857400
+                jcr:created="{Date}2016-12-04T17:57:51.952-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:59:34.335-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1107"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="For assistance on your service request, please contact our New Development Center at VALUE_1."/>
+            <item_1089568167
+                jcr:created="{Date}2016-12-04T17:57:55.680-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:59:44.721-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1108"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate there is already a request to stop service for this account."/>
+            <item_739565490
+                jcr:created="{Date}2016-12-04T17:58:01.397-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T17:59:55.066-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1109"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;We will continue to process your Transfer Service request however we are unable to verify your co-customer information. If you would like to add a co-customer to your account, please fax a notarized copy of the following to VALUE_1:       1. Two forms of valid identification      2. A contact number      3. The new service address   Your request will be processed once we have received and verified your information.  Please contact Customer Services at VALUE_2 or VALUE_3 if you have further questions.&quot;"/>
+            <item_834128183
+                jcr:created="{Date}2016-12-04T17:58:05.690-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:00:10.006-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1110"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="We are unable to verify the co-customer information you provided, however we will continue to process your Transfer Service request. If you would like to add the co-customer, please contact Customer Services at VALUE_1 or VALUE_2 for assistance. Please click on the NEXT button."/>
+            <item_1577884493
+                jcr:created="{Date}2016-12-04T18:00:15.189-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:00:51.037-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1111"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Select the date you would like to start service at your new address"/>
+            <item_604464383
+                jcr:created="{Date}2016-12-04T18:00:17.852-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:01:00.658-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1112"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The Zip Code entered is invalid.  Please enter a 5 or 9 digit number."/>
+            <item_41909004
+                jcr:created="{Date}2016-12-04T18:00:20.836-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:01:10.653-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1113"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate the service address you are moving to is on the Residential Time-of-Use Rate program. Please contact Customer Services at VALUE_1 or VALUE_2 for assistance. "/>
+            <item_962314352
+                jcr:created="{Date}2016-12-04T18:00:24.009-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:01:23.932-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1114"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Sign me up for &lt;A href=&quot;VALUE_1&quot; target=&quot;_blank&quot;> &lt;B>Paperless Billing.&lt;/B>&lt;/A> I want to recieve my monthly billing statement electronically via the MyAccount web service."/>
+            <item_845106479
+                jcr:created="{Date}2016-12-04T18:00:27.047-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:01:38.401-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1115"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="We are unable to process your request. Please contact NV Energy at VALUE_1 or VALUE_2 for assistance."/>
+            <item_1850645320
+                jcr:created="{Date}2016-12-04T18:00:30.120-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:01:58.415-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1116"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="A Stop service request has been scheduled for the same address for VALUE_1. Please select a start date after this date."/>
+            <item_1109184660
+                jcr:created="{Date}2016-12-04T18:00:33.999-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:02:11.242-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1117"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account is on a payment arrangement. &lt;BR>&lt;BR> Once the payment arrangement has been satisfied, you may enroll on the Equal Payment Plan. &lt;BR>&lt;BR>You may make your payment via &lt;A href=&quot;VALUE_1&quot; target=&quot;_parent&quot;>&lt;B>&lt;U>Online Payment&lt;/B>&lt;/U>&lt;/A> at a &lt;A href=&quot;VALUE_2&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Shop and Pay&lt;/B>&lt;/U> &lt;/A> location, by phone through &lt;A href=&quot;VALUE_3&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Western Union Speedpay &lt;/B>&lt;/U> &lt;/A> which accepts credit or debit cards as well as check-by-phone payments for a processing fee."/>
+            <item_2058996664
+                jcr:created="{Date}2016-12-04T18:00:38.325-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:02:23.996-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1118"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this is a commercial address.&lt;BR>&lt;BR> The Equal Payment Plan is available to residential customers only."/>
+            <item_1772473966
+                jcr:created="{Date}2016-12-04T18:02:29.904-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:03:08.166-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1119"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account has not yet billed. After you have received your first billing statement, you may enroll on the Equal Payment Plan."/>
+            <item_166629238
+                jcr:created="{Date}2016-12-04T18:02:32.760-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:03:18.079-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1120"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account was previously canceled from the Equal Payment Plan due to three consecutive late payments within the last twelve months. You are only eligible to re-enroll in the program after VALUE_1."/>
+            <item_1778105762
+                jcr:created="{Date}2016-12-04T18:02:35.821-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:03:27.985-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1121"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account was canceled from the Equal Payment Plan within the last two months. You may re-enroll on the plan after VALUE_1."/>
+            <item_1633329093
+                jcr:created="{Date}2016-12-04T18:02:38.539-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:03:38.337-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1122"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records show that you have a bad debt balance of $VALUE_1. &lt;BR>&lt;BR> This balance must be paid in full and applied to your account before we can process your request.&lt;BR>&lt;BR> You may make your payment via &lt;A href=&quot;VALUE_2&quot; target=&quot;_parent&quot;>&lt;B>&lt;U>Online Payment&lt;/B>&lt;/U>&lt;/A> at a &lt;A href=&quot;VALUE_3&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Shop and Pay&lt;/B>&lt;/U> &lt;/A> location, by phone through &lt;A href=&quot;VALUE_4&quot; target=&quot;_blank&quot;> &lt;B>&lt;U> Western Union Speedpay &lt;/B>&lt;/U> &lt;/A> which accepts credit or debit cards as well as check-by-phone payments for a processing fee."/>
+            <item_1717944122
+                jcr:created="{Date}2016-12-04T18:02:42.814-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:03:51.681-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1124"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account has a temporary pole.&lt;BR>&lt;BR>The Equal Payment Plan is available for residential services only."/>
+            <item_2116902310
+                jcr:created="{Date}2016-12-04T18:02:47.151-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:04:06.290-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1125"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate a private area light or street light is installed at this service address.&lt;BR>&lt;BR>The Equal Payment Plan is available for residential services only."/>
+            <item_1669820014
+                jcr:created="{Date}2016-12-04T18:02:51.116-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:04:20.705-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1126"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account is pending cancellation from the Equal Payment Plan."/>
+            <item_593389761
+                jcr:created="{Date}2016-12-04T18:02:56.755-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:04:31.563-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1127"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The customer information provided does not match our records."/>
+            <item_299859306
+                jcr:created="{Date}2016-12-04T18:04:35.466-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:05:19.535-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1128"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account is not active."/>
+            <item_1800084037
+                jcr:created="{Date}2016-12-04T18:04:37.824-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:05:28.710-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1129"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account has non-residential services.&lt;BR>&lt;BR> The Smart Meter Opt-Out Trial program is available to residential customers only."/>
+            <item_1771726706
+                jcr:created="{Date}2016-12-04T18:04:40.157-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:05:47.940-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1130"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="A private area light or street light is installed at this service address.&lt;BR>&lt;BR> These services do not have meters and are billed on flat rates each month. "/>
+            <item_188246393
+                jcr:created="{Date}2016-12-04T18:04:42.209-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:06:02.150-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1131"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate a request for the Smart Meter Opt-Out Trial program has already been submitted for this account."/>
+            <item_893501804
+                jcr:created="{Date}2016-12-04T18:04:44.665-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:09:38.422-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1132"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account is already active on the Smart Meter Opt-Out Trial program. A non-standard meter has been installed at this service location."/>
+            <item_2023744790
+                jcr:created="{Date}2016-12-04T18:04:47.228-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:09:48.739-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1133"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate there is a pending request to stop service at this service address.&lt;BR>&lt;BR> For assistance on your request, please contact NV Energy at VALUE_1 or VALUE_2."/>
+            <item_1805321684
+                jcr:created="{Date}2016-12-04T18:04:52.549-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:10:01.993-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1134"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account is not active."/>
+            <item_66705068
+                jcr:created="{Date}2016-12-04T18:04:49.793-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:10:39.393-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1135"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Our records indicate this account is on our net metering or time-of-use rate.&lt;BR>&lt;BR> The Smart Meter Trial Opt out is not available for this account."/>
+            <item_1192218046
+                jcr:created="{Date}2016-12-04T18:05:01.723-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:10:49.387-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1136"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The NV Energy password entered does not match our records."/>
+            <item_1245958001
+                jcr:created="{Date}2016-12-04T18:04:57.622-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:10:59.821-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="137"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Additional information is required.  Please contact Customer Services at VALUE_1 or VALUE_2."/>
+            <item_512678136
+                jcr:created="{Date}2016-12-04T18:05:05.011-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:11:09.889-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1138"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="The Account Number provided does not match our records."/>
+            <item_1154359665
+                jcr:created="{Date}2016-12-04T18:11:53.926-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:12:25.117-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1139"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;&lt;p>Residential customers can now choose between a standard communicating electric meter (smart meter) and/or gas module (northern Nevada) or a non-standard metering option (opt out). The non-standard meter is a tested and refurbished analog meter. Customers that choose the non-standard metering option will incur a one-time charge and must pay an additional monthly fee. The Public Utilities Commission of Nevada approved a tariff that sets the terms and conditions of the trial opt-out program (&lt;a href=&quot;&quot;VALUE_1&quot;&quot; target=&quot;&quot;_blank&quot;&quot;>view the tariff here&lt;/a>).&lt;/p> &#x9;                      &lt;h1>&lt;strong> Non-Standard Meter Costs &lt;/strong>&lt;/h1>                          &lt;p>&lt;strong> These fees will cover the installation costs, monthly manual meter reading costs, and other related costs. Commercial customers will be provided a standard communicating smart meter as a condition of service and are not eligible for this trial program: &lt;br /> &lt;/strong>&lt;/p>&quot;"/>
+            <item_971417007
+                jcr:created="{Date}2016-12-04T18:11:56.756-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:12:40.134-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1140"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;&lt;table width=&quot;&quot;98%&quot;&quot; border=&quot;&quot;0&quot;&quot; cellspacing=&quot;&quot;0&quot;&quot; cellpadding=&quot;&quot;0&quot;&quot;> &#x9;  &lt;tr> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot; bgcolor=&quot;&quot;#F9DE6B&quot;&quot;>&lt;div align=&quot;&quot;left&quot;&quot;>&lt;/div>&lt;/td> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot; bgcolor=&quot;&quot;#F9DE6B&quot;&quot;>&lt;div align=&quot;&quot;center&quot;&quot;>&lt;strong>Southern NV&lt;br /> &#x9;      Electric &lt;/strong>&lt;/div>&lt;/td> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot; bgcolor=&quot;&quot;#F9DE6B&quot;&quot;>&lt;div align=&quot;&quot;center&quot;&quot;>&lt;strong>Northern NV&lt;br /> &#x9;      Electric Only&lt;/strong>&lt;/div>&lt;/td> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot; bgcolor=&quot;&quot;#F9DE6B&quot;&quot;>&lt;div align=&quot;&quot;center&quot;&quot;>&lt;strong>Northern NV&lt;br /> &#x9;      Electric + Gas &lt;/strong>&lt;/div>&lt;/td>       &lt;/tr> &quot;"/>
+            <item_1044359143
+                jcr:created="{Date}2016-12-04T18:11:59.836-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:12:54.511-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1141"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;&#x9;  &lt;tr> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot;>&lt;div align=&quot;&quot;left&quot;&quot;>&lt;strong>&amp;nbsp;&amp;nbsp;Setup Charges&lt;/strong>&lt;/div>&lt;/td> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot;>&lt;div align=&quot;&quot;center&quot;&quot;>$52.86&lt;/div>&lt;/td> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot;>&lt;div align=&quot;&quot;center&quot;&quot;>$52.44&lt;/div>&lt;/td> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot;>&lt;div align=&quot;&quot;center&quot;&quot;>$52.44*&lt;/div>&lt;/td>       &lt;/tr> &quot;"/>
+            <item_1391186954
+                jcr:created="{Date}2016-12-04T18:12:03.871-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:13:10.914-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1142"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;&#x9;  &lt;tr> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot; bgcolor=&quot;&quot;#D1E2E8&quot;&quot;>&lt;div align=&quot;&quot;left&quot;&quot;>&lt;strong>&amp;nbsp;&amp;nbsp;Monthly Fee&lt;/strong>&lt;/div>&lt;/td> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot; bgcolor=&quot;&quot;#D1E2E8&quot;&quot;>&lt;div align=&quot;&quot;center&quot;&quot;>$ 8.82&lt;/div>&lt;/td> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot; bgcolor=&quot;&quot;#D1E2E8&quot;&quot;>&lt;div align=&quot;&quot;center&quot;&quot;>$ 8.72&lt;/div>&lt;/td> &#x9;    &lt;td width=&quot;&quot;25%&quot;&quot; height=&quot;&quot;36&quot;&quot; valign=&quot;&quot;middle&quot;&quot; bgcolor=&quot;&quot;#D1E2E8&quot;&quot;>&lt;div align=&quot;&quot;center&quot;&quot;>$ 9.26*&lt;/div>&lt;/td>       &lt;/tr>     &lt;/table> &quot;"/>
+            <item_631230424
+                jcr:created="{Date}2016-12-04T18:12:08.321-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:13:24.826-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1143"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="&quot;    &lt;p>&amp;nbsp;&lt;/p>     &lt;p>&lt;em>*Breakdown of Northern NV Gas Charges: Incremental Setup Charge is $0.00 and Incremental Monthly Charge is $0.54 -- Gas customers must opt-out for both gas and electric service. &lt;/em>&lt;/p>     &lt;p>These fees will cover the installation costs, monthly manual meter reading costs, and other related costs. Commercial customers will be provided a standard communicating smart meter as a condition of service.&lt;/p> &lt;p>&lt;strong>Please complete all fields in the form below to submit your Smart Meter   Opt-Out preference. Fill out this form once per residence that you wish to opt-out of the NVEnergize Smart Meter Program.&lt;/strong>&lt;/p> &quot;"/>
+            <item_199182527
+                jcr:created="{Date}2016-12-04T18:12:12.376-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:13:40.991-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1144"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="I agree that I am the customer of record for the account number entered above. Further, I am indicating that I am selecting the non-standard metering option and am aware of the initial setup and ongoing monthly charges which will be added to my utility statement. By selecting this option, I am aware of the terms and conditions that are included in the approved tariff.  If I fail to honor the terms and conditions as described in the approved tariff I understand that I will be removed from this trial program and a standard meter will be installed and any fees paid will be forfeited."/>
+            <item_2057166641
+                jcr:created="{Date}2016-12-04T18:13:45.904-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-12-04T18:13:59.041-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1145"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Please contact your Account Executive for futher assistance."/>
+        </list>
+    </jcr:content>
+</jcr:root>

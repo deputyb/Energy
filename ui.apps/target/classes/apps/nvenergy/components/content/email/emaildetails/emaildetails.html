@@ -1,0 +1,43 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+
+<table data-sly-test.author="${wcmmode.edit || wcmmode.design}" role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 650px;background-color: #ffffff;">
+    <!-- EMAIL DETAILS -->
+    <tr>
+        <td style="padding:10px 50px 10px 40px; text-align: left; font-family:  sans-serif, 'Assistant'; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color:#000;font-weight:bold;">
+            <sly data-sly-test.inboxpreview="${properties.inboxpreviewmessage}">Inbox Preview Message: ${properties.inboxpreviewmessage}</sly>
+			<sly data-sly-test="${!inboxpreview}">Enter inbox preview message</sly>
+            <sly data-sly-test.textemail="${properties.textemailurl}"><br />Text Email URL: ${properties.textemailurl}<br /></sly>
+			<sly data-sly-test="${!textemail}"><br />Select text email location<br /></sly>
+        	<i>This information will not appear in the body of the email message.</i>
+
+        </td>
+    </tr>
+</table>
+<table data-sly-test="${!author}"  style="display:none !important; visibility:hidden; font-size:0px; line-height:0px;max-height:0px;max-width:0px;width:0px;opacity:0; height:0px; overflow:hidden; mso-hide:all; font-family: sans-serif">
+	<tr>
+		<td>
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div id="inboxpreview" style="display:none !important; visibility:hidden; font-size:0px; line-height:0px;max-height:0px;max-width:0px;width:0px;opacity:0; overflow:hidden; mso-hide:all; font-family: sans-serif">
+            ${properties.inboxpreviewmessage}
+        </div>
+        <div id="textemailurl" style="display:none !important; visibility:hidden; font-size:0px; line-height:0px;max-height:0px;max-width:0px;width:0px;opacity:0; overflow:hidden; mso-hide:all; font-family: sans-serif">
+            <a href="${properties.textemailurl}">${properties.textemailurl}</a>
+        </div>
+        <!-- Visually Hidden Preheader Text : END -->
+		</td>
+	</tr>
+</table>

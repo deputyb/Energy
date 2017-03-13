@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Dialog"
+          title="NVE Richtext"
+          xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <generalTab
+            jcr:primaryType="cq:Widget"
+            title="General">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <text
+                    jcr:primaryType="cq:Widget"
+                    enableEditTools="true"
+                    fieldLabel="Rich Text Message"
+                    hideLabel="{Boolean}false"
+                    name="./text"
+                    removeSingleParagraphContainer="{Boolean}true"
+                    xtype="richtext">
+                    <rtePlugins jcr:primaryType="nt:unstructured">
+                        <format
+                            jcr:primaryType="nt:unstructured"
+                            features="[bold,italic,underline]"/>
+                        <subsuperscript
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <lists
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <justify
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <spellcheck
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <undo
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <findreplace
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <misctools
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <rtetel
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <table
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <styles
+                            jcr:primaryType="nt:unstructured"
+                            features="*">
+                            <styles jcr:primaryType="cq:WidgetCollection">
+                                <primarybutton
+                                    jcr:primaryType="nt:unstructured"
+                                    cssName="primary-btn"
+                                    text="Primary button style"/>
+                                <secondarybutton
+                                    jcr:primaryType="nt:unstructured"
+                                    cssName="secondary-btn"
+                                    text="Secondary button style"/>
+                            </styles>
+                        </styles>
+                    </rtePlugins>   
+                </text>
+                <isRichTextFlag
+                    jcr:primaryType="cq:Widget"
+                    ignoreData="{Boolean}true"
+                    name="./textIsRich"
+                    value="true"
+                    xtype="hidden"/>
+            </items>
+        </generalTab>
+    </items>
+</jcr:root>

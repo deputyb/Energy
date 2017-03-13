@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl">
+    <OCD id="com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl" name="%com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl.name" description="%com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl.description">
+        <AD id="quicklinks_path" type="String" default="/etc/acs-commons/lists/quicklinks/jcr:content/list" name="%com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl.quicklinks_path.name" description="%com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl.quicklinks_path.description"/>
+    </OCD>
+    <Designate pid="com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl">
+        <Object ocdref="com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl"/>
+    </Designate>
+</metatype:MetaData>

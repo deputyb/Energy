@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/acs-commons"
+        cq:lastModified="{Date}2016-10-26T10:27:12.508-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs-commons/templates/utilities/genericlist"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Weather Alerts"
+        jcr:uuid="917287e8-464b-46a0-aad7-89e0af0890fa"
+        sling:resourceType="acs-commons/components/utilities/genericlist">
+        <list
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <item
+                jcr:created="{Date}2016-10-25T14:07:56.252-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-26T10:27:12.492-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Severe Weather"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="We are experiencing widespread and scattered outages due to heavy storms in the area and are unable to provide accurate restoration times at this time. Please check back for updates. Crews are working to restore service as quickly and safely as possible. We appreciate your patience."/>
+            <item_1681454183
+                jcr:created="{Date}2016-10-25T14:09:23.489-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T14:44:26.072-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="High Winds"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="A severe windstorm"/>
+            <item_797216393
+                jcr:created="{Date}2016-10-25T14:09:25.139-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T14:46:08.006-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="High Winds"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="Please consider all downed winds"/>
+        </list>
+    </jcr:content>
+</jcr:root>

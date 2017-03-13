@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*** LAYOUT VERSION 1: NON-STANDARD ***/ 
+
+.nve-large-callout-layout-non-standard {
+	width:100% ; 
+	border: 1px dashed #ccc; 
+	background-color: #F5F3E6; 
+	margin: 20px 0; 
+	position: relative; 
+	padding:10px;
+}
+.nve-large-callout-layout-non-standard p {
+	margin: 10px 0; 
+	
+}
+.nve-large-callout-layout-non-standard p:first-child {
+	font-weight: bold; 
+}
+.nve-large-callout-layout-non-standard a {
+	color: #1D8064; 
+	text-decoration: underline; 
+}
+/*** LAYOUT VERSION 2:GUIDELINE STANDARD ***/ 
+
+.nve-large-callout-layout{
+	margin: 10px 0; 
+	padding:10px; 
+}
+.nve-icon-size-10{
+	font-size:10em;
+}

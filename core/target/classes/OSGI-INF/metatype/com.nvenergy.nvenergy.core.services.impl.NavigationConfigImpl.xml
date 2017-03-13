@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl">
+    <OCD id="com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl" name="%com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl.name" description="%com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl.description">
+        <AD id="nav_root_path" type="String" default="/content/NVEnergy/en" name="%com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl.nav_root_path.name" description="%com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl.nav_root_path.description"/>
+    </OCD>
+    <Designate pid="com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl">
+        <Object ocdref="com.nvenergy.nvenergy.core.services.impl.NavigationConfigImpl"/>
+    </Designate>
+</metatype:MetaData>

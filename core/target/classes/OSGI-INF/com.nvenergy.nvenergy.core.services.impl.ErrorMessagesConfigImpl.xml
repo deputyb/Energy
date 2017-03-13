@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl" activate="activate">
+        <implementation class="com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.nvenergy.nvenergy.core.services.ErrorMessagesConfig"/>
+        </service>
+        <property name="error_messages_node_path" value="/etc/acs-commons/lists/errormessages/jcr:content/list"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.nvenergy.nvenergy.core.services.impl.ErrorMessagesConfigImpl"/>
+    </scr:component>
+</components>

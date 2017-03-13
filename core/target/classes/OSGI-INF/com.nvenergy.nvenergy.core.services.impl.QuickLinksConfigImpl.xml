@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl" activate="activate">
+        <implementation class="com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.nvenergy.nvenergy.core.services.QuickLinksConfig"/>
+        </service>
+        <property name="quicklinks_path" value="/etc/acs-commons/lists/quicklinks/jcr:content/list"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.nvenergy.nvenergy.core.services.impl.QuickLinksConfigImpl"/>
+    </scr:component>
+</components>

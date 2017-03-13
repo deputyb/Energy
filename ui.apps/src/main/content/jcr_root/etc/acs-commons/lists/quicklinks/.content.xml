@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/acs-commons"
+        cq:lastModified="{Date}2016-10-25T08:52:50.393-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs-commons/templates/utilities/genericlist"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Quicklinks"
+        sling:resourceType="acs-commons/components/utilities/genericlist">
+        <list
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <item
+                jcr:created="{Date}2016-10-25T08:42:15.805-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T08:44:16.090-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Pay My Bill"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="/content/NVEnergy/en/accountservices/paymentandbilling"/>
+            <item_18499179
+                jcr:created="{Date}2016-10-25T08:44:21.682-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T08:45:07.959-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Pay As Guest"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="/content/NVEnergy/en/accountservices/paymentandbilling"/>
+            <item_333932624
+                jcr:created="{Date}2016-10-25T08:44:19.950-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T08:45:37.780-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="View Balance and Usage"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="/content/NVEnergy/en/accountservices/balanceandusage"/>
+            <item_812161424
+                jcr:created="{Date}2016-10-25T08:44:23.439-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T08:46:14.728-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Report/View Outages"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="/content/NVEnergy/en/outagesandemergencies/reportanoutage"/>
+            <item_1142900086
+                jcr:created="{Date}2016-10-25T08:44:24.852-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T08:46:52.241-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Start, Stop, Transfer Service"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="/content/NVEnergy/en/accountservices/startstoptransferservice"/>
+            <item_18609195
+                jcr:created="{Date}2016-10-25T08:44:26.520-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T08:48:45.992-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Request a Payment Arrangement"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="/content/NVEnergy/en/accountservices/paymentarrangements"/>
+            <item_1519565000
+                jcr:created="{Date}2016-10-25T08:44:29.037-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T08:49:25.256-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Save Energy and Money"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="/content/NVEnergy/en/savewithpowershift/tipstosave"/>
+            <item_888011315
+                jcr:created="{Date}2016-10-25T08:49:38.890-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T08:52:07.019-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Manage MyAccount Profile/Preferences"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="/content/NVEnergy/en/accountservices/myaccountprofileandpreferences"/>
+            <item_1954155823
+                jcr:created="{Date}2016-10-25T08:49:40.983-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-25T08:52:50.391-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Adjust my Smart Thermostat"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="/content/NVEnergy/en/savewithpowershift/mysmartthermostat"/>
+        </list>
+    </jcr:content>
+</jcr:root>

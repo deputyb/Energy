@@ -1,0 +1,28 @@
+<div data-sly-use.columnTextField="${'com.nvenergy.nvenergy.core.models.ColumnTextField'}">
+
+	<sly data-sly-test.show="${columnTextField.textItemList.size<=0}">
+            <div class="cq-placeholder" data-emptytext="Configure Two Column Text Component"></div>
+    </sly>
+    
+    <sly data-sly-test="${!show}"> 
+        <div class="nve-accordion-column-wrapper">
+        <div class="clearfix">
+    
+    	<div data-sly-list.item="${columnTextField.textItemList}">
+    	   
+  			<!--  <article class="nve-accordion-item-body">-->
+		       		<div>  		
+		       			${item.col1 @ context='html'}
+		        	</div>
+		        	<div>  		
+		       			${item.col2 @ context='html'}
+		        	</div>
+			<!--  </article> -->   		
+    	</div>
+    	        </div>
+    	
+    	</div>
+    	   
+    </sly>
+   
+</div>

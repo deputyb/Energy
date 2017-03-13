@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/acs-commons"
+        cq:lastModified="{Date}2016-10-22T20:24:24.666-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs-commons/templates/utilities/genericlist"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="NVEnergy Icons"
+        jcr:uuid="11acbc0f-4298-4770-b974-6cf395aa15b5"
+        sling:resourceType="acs-commons/components/utilities/genericlist">
+        <list
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <item
+                jcr:created="{Date}2016-09-30T07:32:43.521-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-09-30T07:38:38.804-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Red Lightbulb with Leaf"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-leaf accent-color-red"/>
+            <item_544899793
+                jcr:created="{Date}2016-09-30T09:29:32.089-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:26:12.744-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-accounts-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-accounts-01"/>
+            <item_32370125
+                jcr:created="{Date}2016-10-22T19:26:53.267-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:31:05.845-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-accounts-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-accounts-02"/>
+            <item_1894601552
+                jcr:created="{Date}2016-10-22T19:26:56.043-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:31:46.587-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-alert-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-alert-01"/>
+            <item_1313660767
+                jcr:created="{Date}2016-10-22T19:26:57.711-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:32:11.328-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-alert-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-alert-02"/>
+            <item_1783877041
+                jcr:created="{Date}2016-10-22T19:27:01.139-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:32:41.222-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-alert-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-alert-03"/>
+            <item_1514250223
+                jcr:created="{Date}2016-10-22T19:26:59.441-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:32:57.542-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-alert-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-alert-04"/>
+            <item_928430876
+                jcr:created="{Date}2016-10-22T19:27:04.657-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:33:11.054-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-alert-05"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-alert-05"/>
+            <item_730722232
+                jcr:created="{Date}2016-10-22T19:27:06.595-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:33:21.978-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-alert-06"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-alert-06"/>
+            <item_111689166
+                jcr:created="{Date}2016-10-22T19:27:08.514-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:33:34.389-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-alert-07"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-alert-07"/>
+            <item_433902422
+                jcr:created="{Date}2016-10-22T19:27:10.539-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:33:55.639-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-arrow"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-arrow"/>
+            <item_1554186286
+                jcr:created="{Date}2016-10-22T19:27:13.266-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:34:22.011-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-billing-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-billing-01"/>
+            <item_100655382
+                jcr:created="{Date}2016-10-22T19:27:15.085-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:34:34.425-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-billing-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-billing-02"/>
+            <item_1882031719
+                jcr:created="{Date}2016-10-22T19:34:41.355-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:35:09.499-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-billing-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-billing-03"/>
+            <item_1617651379
+                jcr:created="{Date}2016-10-22T19:34:43.588-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:35:31.235-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-date-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-date-01"/>
+            <item_131456866
+                jcr:created="{Date}2016-10-22T19:34:47.284-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:35:40.446-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-date-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-date-02"/>
+            <item_1151444040
+                jcr:created="{Date}2016-10-22T19:34:49.443-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:35:50.539-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-date-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-date-03"/>
+            <item_88338636
+                jcr:created="{Date}2016-10-22T19:34:51.964-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:35:59.871-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-date-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-date-04"/>
+            <item_1538144269
+                jcr:created="{Date}2016-10-22T19:34:54.029-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:36:27.017-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-deadline-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-deadline-01"/>
+            <item_863620420
+                jcr:created="{Date}2016-10-22T19:34:58.282-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:36:35.719-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-deadline-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-deadline-02"/>
+            <item_660575684
+                jcr:created="{Date}2016-10-22T19:37:01.779-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:39:26.335-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-deadline-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-deadline-03"/>
+            <item_1078761143
+                jcr:created="{Date}2016-10-22T19:37:03.718-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:49:36.860-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-deadline-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-deadline-04"/>
+            <item_21724110
+                jcr:created="{Date}2016-10-22T19:37:08.403-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:49:46.441-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-deadline-05"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-deadline-05"/>
+            <item_2014275359
+                jcr:created="{Date}2016-10-22T19:37:14.504-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:50:11.135-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-dog-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-dog-01"/>
+            <item_355559986
+                jcr:created="{Date}2016-10-22T19:51:13.330-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:51:42.322-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-dog-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-dog-02"/>
+            <item_175658126
+                jcr:created="{Date}2016-10-22T19:51:15.534-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:51:53.690-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-dog-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-dog-03"/>
+            <item_440723144
+                jcr:created="{Date}2016-10-22T19:51:17.173-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:52:08.693-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-dog-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-dog-04"/>
+            <item_1217893937
+                jcr:created="{Date}2016-10-22T19:51:19.051-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:52:51.794-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-energy-chart-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-energy-chart-01"/>
+            <item_498491810
+                jcr:created="{Date}2016-10-22T19:51:20.909-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:53:03.585-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-energy-chart-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-energy-chart-02"/>
+            <item_437649615
+                jcr:created="{Date}2016-10-22T19:51:23.051-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:53:16.707-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-energy-chart-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-energy-chart-03"/>
+            <item_337181022
+                jcr:created="{Date}2016-10-22T19:53:20.615-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:53:38.382-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-energy-chart-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-energy-chart-04"/>
+            <item_1762710364
+                jcr:created="{Date}2016-10-22T19:53:22.646-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:53:49.845-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-energy-chart-05"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-energy-chart-05"/>
+            <item_388985037
+                jcr:created="{Date}2016-10-22T19:53:24.533-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:54:05.902-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-energy-chart-06"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-energy-chart-06"/>
+            <item_915546688
+                jcr:created="{Date}2016-10-22T19:53:26.375-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:54:45.690-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-info"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-info"/>
+            <item_1861037846
+                jcr:created="{Date}2016-10-22T19:55:00.096-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:55:43.441-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-key-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-key-01"/>
+            <item_1763176518
+                jcr:created="{Date}2016-10-22T19:55:01.777-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:55:54.797-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-key-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-key-02"/>
+            <item_134056296
+                jcr:created="{Date}2016-10-22T19:55:06.808-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:56:05.584-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-key-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-key-03"/>
+            <item_27925327
+                jcr:created="{Date}2016-10-22T19:55:05.053-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:56:18.814-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-key-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-key-04"/>
+            <item_1655023901
+                jcr:created="{Date}2016-10-22T19:55:08.258-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:56:28.515-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-key-05"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-key-05"/>
+            <item_1913123574
+                jcr:created="{Date}2016-10-22T19:55:10.074-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:56:41.656-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-key-06"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-key-06"/>
+            <item_1435398956
+                jcr:created="{Date}2016-10-22T19:55:03.402-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:56:51.800-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-key-07"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-key-07"/>
+            <item_880479396
+                jcr:created="{Date}2016-10-22T19:55:12.501-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:57:04.038-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-key-08"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-key-08"/>
+            <item_2008198375
+                jcr:created="{Date}2016-10-22T19:57:06.743-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:57:27.564-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-key-09"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-key-09"/>
+            <item_1267789013
+                jcr:created="{Date}2016-10-22T19:57:08.788-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:57:37.796-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-key-10"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-key-10"/>
+            <item_518830191
+                jcr:created="{Date}2016-10-22T19:57:10.544-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:59:00.478-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-leaf"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-leaf"/>
+            <item_2028562650
+                jcr:created="{Date}2016-10-22T19:57:12.224-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T19:59:22.876-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-lock-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-lock-01"/>
+            <item_113618162
+                jcr:created="{Date}2016-10-22T19:57:14.211-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:00:09.273-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-moving-center-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-moving-center-01"/>
+            <item_1115041438
+                jcr:created="{Date}2016-10-22T19:57:16.153-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:00:01.905-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-moving-center-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-moving-center-02"/>
+            <item_1167432103
+                jcr:created="{Date}2016-10-22T20:00:16.042-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:00:38.843-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-moving-center-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-moving-center-03"/>
+            <item_295995386
+                jcr:created="{Date}2016-10-22T20:00:17.980-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:00:49.901-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-moving-center-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-moving-center-04"/>
+            <item_509267667
+                jcr:created="{Date}2016-10-22T20:00:20.146-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:01:03.835-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-moving-center-05"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-moving-center-05"/>
+            <item_819685717
+                jcr:created="{Date}2016-10-22T20:00:22.216-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:01:26.159-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-panel"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-panel"/>
+            <item_1815661278
+                jcr:created="{Date}2016-10-22T20:00:24.288-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:01:57.843-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-payment-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-payment-01"/>
+            <item_1399748283
+                jcr:created="{Date}2016-10-22T20:00:27.012-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:02:07.835-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-payment-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-payment-02"/>
+            <item_689908796
+                jcr:created="{Date}2016-10-22T20:02:10.425-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:02:50.767-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-payment-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-payment-03"/>
+            <item_1478739937
+                jcr:created="{Date}2016-10-22T20:02:12.409-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:03:00.746-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-payment-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-payment-04"/>
+            <item_748945517
+                jcr:created="{Date}2016-10-22T20:02:14.218-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:03:18.259-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-payment-05"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-payment-05"/>
+            <item_619184772
+                jcr:created="{Date}2016-10-22T20:02:15.933-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:03:27.847-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-payment-06"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-payment-06"/>
+            <item_1557604968
+                jcr:created="{Date}2016-10-22T20:02:18.110-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:03:40.527-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-payment-07"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-payment-07"/>
+            <item_2039812129
+                jcr:created="{Date}2016-10-22T20:02:20.657-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:03:50.226-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-payment-08"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-payment-08"/>
+            <item_149306638
+                jcr:created="{Date}2016-10-22T20:02:23.551-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:09:09.532-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-phone"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-phone"/>
+            <item_19176189
+                jcr:created="{Date}2016-10-22T20:09:19.570-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:09:45.214-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-plug"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-plug"/>
+            <item_403168691
+                jcr:created="{Date}2016-10-22T20:09:21.173-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:10:31.915-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-power-outage-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-power-outage-01"/>
+            <item_167236225
+                jcr:created="{Date}2016-10-22T20:09:22.977-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:10:50.798-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-power-outage-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-power-outage-02"/>
+            <item_298334335
+                jcr:created="{Date}2016-10-22T20:09:24.705-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:11:01.562-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-power-outage-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-power-outage-03"/>
+            <item_569774367
+                jcr:created="{Date}2016-10-22T20:09:26.930-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:11:12.278-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-power-outage-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-power-outage-04"/>
+            <item_1384943740
+                jcr:created="{Date}2016-10-22T20:09:28.639-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:11:24.062-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-power-outage-05"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-power-outage-05"/>
+            <item_1519462323
+                jcr:created="{Date}2016-10-22T20:09:30.631-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:11:35.169-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-power-outage-06"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-power-outage-06"/>
+            <item_1547586048
+                jcr:created="{Date}2016-10-22T20:11:37.724-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:12:05.313-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-power-outage-07"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-power-outage-07"/>
+            <item_205115364
+                jcr:created="{Date}2016-10-22T20:11:39.505-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:12:18.059-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-power-outage-08"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-power-outage-08"/>
+            <item_964460473
+                jcr:created="{Date}2016-10-22T20:11:41.398-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:12:30.609-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-power-outage-09"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-power-outage-09"/>
+            <item_1745094785
+                jcr:created="{Date}2016-10-22T20:11:43.103-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:12:41.555-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-power-outage-10"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-power-outage-10"/>
+            <item_69304497
+                jcr:created="{Date}2016-10-22T20:11:44.744-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:13:12.874-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-registration-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-registration-01"/>
+            <item_10614308
+                jcr:created="{Date}2016-10-22T20:11:46.838-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:13:48.780-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-registration-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-registration-02"/>
+            <item_547305727
+                jcr:created="{Date}2016-10-22T20:11:48.842-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:14:02.111-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-registration-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-registration-03"/>
+            <item_24193615
+                jcr:created="{Date}2016-10-22T20:11:51.531-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:15:48.551-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-01"/>
+            <item_1943871759
+                jcr:created="{Date}2016-10-22T20:11:53.828-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:15:58.628-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-02"/>
+            <item_1001737282
+                jcr:created="{Date}2016-10-22T20:16:05.665-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:20:31.168-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-03"/>
+            <item_1907273758
+                jcr:created="{Date}2016-10-22T20:16:04.042-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:20:38.564-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-04"/>
+            <item_970948751
+                jcr:created="{Date}2016-10-22T20:16:02.449-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:20:44.244-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-05"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-05"/>
+            <item_1565141915
+                jcr:created="{Date}2016-10-22T20:16:08.825-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:20:49.032-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-06"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-06"/>
+            <item_1978322398
+                jcr:created="{Date}2016-10-22T20:16:07.257-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:20:54.655-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-07"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-07"/>
+            <item_1745790533
+                jcr:created="{Date}2016-10-22T20:16:11.128-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:21:00.826-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-08"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-08"/>
+            <item_211053793
+                jcr:created="{Date}2016-10-22T20:16:13.112-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:21:06.728-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-09"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-09"/>
+            <item_1899364739
+                jcr:created="{Date}2016-10-22T20:16:15.687-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:21:13.707-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-10"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-10"/>
+            <item_1683013920
+                jcr:created="{Date}2016-10-22T20:16:19.105-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:21:20.759-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-11"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-11"/>
+            <item_1885302697
+                jcr:created="{Date}2016-10-22T20:18:11.294-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:21:26.897-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-12"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-12"/>
+            <item_994545530
+                jcr:created="{Date}2016-10-22T20:18:13.032-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:21:34.190-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-13"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-13"/>
+            <item_1071173502
+                jcr:created="{Date}2016-10-22T20:18:14.791-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:21:39.675-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-14"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-14"/>
+            <item_1711690827
+                jcr:created="{Date}2016-10-22T20:18:16.447-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:21:45.200-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-start-stop-service-15"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-start-stop-service-15"/>
+            <item_994190543
+                jcr:created="{Date}2016-10-22T20:18:18.017-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:21:51.654-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-thermostat-01"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-thermostat-01"/>
+            <item_367776021
+                jcr:created="{Date}2016-10-22T20:18:20.653-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:21:57.431-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-thermostat-02"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-thermostat-02"/>
+            <item_2109906040
+                jcr:created="{Date}2016-10-22T20:19:52.126-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:22:16.869-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-thermostat-03"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-thermostat-03"/>
+            <item_1009547819
+                jcr:created="{Date}2016-10-22T20:19:53.641-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:22:26.611-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-thermostat-04"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-thermostat-04"/>
+            <item_684011375
+                jcr:created="{Date}2016-10-22T20:19:55.480-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:22:37.515-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-thermostat-05"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-thermostat-05"/>
+            <item_1103656304
+                jcr:created="{Date}2016-10-22T20:20:00.849-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-10-22T20:23:12.730-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="nve-icon-trash"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="nve-icon nve-icon-trash"/>
+        </list>
+    </jcr:content>
+</jcr:root>

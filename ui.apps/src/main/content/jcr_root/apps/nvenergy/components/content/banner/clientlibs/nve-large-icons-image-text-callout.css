@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+/*** LARGE ICON AND TEXT CALLOUT VERSION 2: NON-BOOTSTRAP, RESPONSIVE ***/
+
+
+.nve-large-image-text-layout-wrapper * {
+	box-sizing: border-box;
+}
+.nve-large-image-text-layout-wrapper *::before,
+.nve-large-image-text-layout-wrapper *::after {
+	box-sizing: border-box;
+}
+.clearfix::before,
+.clearfix::after {
+	content: " ";
+	display: table;
+}
+
+
+/*** LARGE IMAGE AND TEXT LAYOUT VERSION 1: BOOTSTRAP ***/
+.clearfix {
+	width:100%;
+	display:table;
+	clear:both;		
+}
+
+.nve-large-image-text-layout-wrapper {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 20px 0 ;
+}
+.nve-large-layout-image, .nve-large-layout-text,
+.nve-large-layout-image-nb, .nve-large-layout-text-nb {
+	display:table-cell;
+	vertical-align:middle; 
+	float: none;
+}
+.nve-large-layout-text, .nve-large-layout-text-nb { 
+	text-align:right;
+	padding: 5px 25px 20px 25px; 
+}
+.nve-large-layout-text p, .nve-large-layout-text-nb p {
+	font-size:24px;
+}
+.nve-large-layout-image, .nve-large-layout-image-nb {
+    padding: 0px;
+	text-align:center;
+}
+.nve-large-layout-image img, .nve-large-layout-image-nb img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+.nve-large-layout-image .nve-icon, .nve-large-layout-image-nb .nve-icon {
+	border: 1px solid #de5243; 
+	padding: 35px;
+	border-radius:50% ;
+}
+
+
+/*** DESKTOP AND LARGE DEVICES NON-BOOTSTRAP ***/
+
+
+@media only screen and (min-width: 1200px) {
+	.nve-large-layout-image-nb {
+		width: 25%;
+	}
+	.nve-large-layout-text-nb{
+		width: 75%;
+	}
+}
+
+
+/*** SMALL DEVICES MODIFICATIONS ***/
+
+
+@media only screen and (min-width: 992px) {
+	
+	/*** NON-BOOTSTRAP ***/
+	
+	.nve-large-layout-image-nb {
+		width: 25%;		
+	}
+	.nve-large-layout-text-nb{
+		width: 75%;
+	}
+	
+	/*** NON-BOOTSTRAP END***/
+	
+	.nve-large-layout-image-nb .nve-icon, .nve-large-layout-image .nve-icon{
+	margin-left:20px;
+	margin-right:0px;	
+} 
+	.nve-large-layout-image-nb.nv-reorder-img .nve-icon, .col-md-push-9.nve-large-layout-image .nve-icon {
+	margin-right:20px;
+	margin-left:0px;
+} 	
+}
+
+
+@media only screen and (max-width: 992px) {
+    .nve-large-layout-text, .nve-large-layout-text-nb {
+        text-align: left;
+		
+    }
+}
+
+
+/*** CONTENT CHOREOGRAPHY MEDIUM DEVICES ***/
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	
+	/*** NON-BOOTSTRAP ***/
+	
+	.nve-large-layout-text-nb, .nve-large-layout-image-nb {
+		width: 50%;
+	}
+	
+	/*** NON-BOOTSTRAP END ***/
+	
+}
+@media only screen and (min-width: 768px) {
+
+	.text-left {
+	text-align:left; 
+}
+}
+
+
+/*** SMALL DEVICES  ***/
+
+@media only screen and (max-width: 768px) {
+	
+	.nve-large-layout-text, .nve-large-layout-image,
+	.nve-large-layout-text-nb, .nve-large-layout-image-nb	{
+		display:block; 
+		float:left; 
+		position:relative;
+		text-align:center; 
+	}
+	.nve-large-layout-image, .nve-large-layout-image-nb {
+
+		display:flex; 
+		align-items:center; 
+		justify-content:center; 
+		float:none;
+		
+	}
+	
+	
+/*** CONTENT CHOREOGRAPHY SMALL & TINY DEVICES ***/
+
+/*** NON-BOOTSTRAP ***/
+
+	.nv-reorder-img {
+		-ms-flex-order: 1;	
+		order: 1;
+	}
+	.nv-reorder-txt {
+		-ms-flex-order: 2;			/* TWEENER - IE 10 */
+		-webkit-order: 2;			/* Chrome */
+		order: 2;
+	}
+/*** NON-BOOTSTRAP END ***/
+
+	.add-flex {
+		display: -ms-flexbox; 	
+		display: flex;			
+		flex-flow:row wrap;
+		
+		
+	}
+	.nve-large-image-text-layout-wrapper .clearfix {
+		align-items:center; 
+		justify-content:center; 
+		 
+	}
+	.nve-large-layout-image-nb .nve-icon, .nve-large-layout-image .nve-icon{
+		margin-top:40px;
+		
+	}
+}
+
+
+

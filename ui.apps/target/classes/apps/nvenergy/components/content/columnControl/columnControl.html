@@ -1,0 +1,23 @@
+<div data-sly-test="${!wcmmode.disabled&&!properties.layout}">
+Click Here to Edit Column Control Component
+</div>
+<div class="row" data-sly-test="${properties.layout == 'one-100'}">
+      <div class="col-sm-12" data-sly-resource="${ @path='col-cntrl-1', resourceType='wcm/foundation/components/parsys'}">
+      </div>
+</div>
+<div class="row" data-sly-test="${properties.layout == 'two-50-50'}">
+      <div class="col-sm-6" data-sly-resource="${ @path='col-cntrl-1', resourceType='wcm/foundation/components/parsys'}">
+      </div>
+      <div class="col-sm-6" data-sly-resource="${ @path='col-cntrl-2', resourceType='wcm/foundation/components/parsys'}">
+      </div>
+ </div>
+ <div class="row" data-sly-test="${properties.layout == 'three-33each'}">
+      <div class="col-sm-4" data-sly-resource="${ @path='col-cntrl-1', resourceType='wcm/foundation/components/parsys'}">
+      </div>
+      <div class="col-sm-4" data-sly-resource="${ @path='col-cntrl-2', resourceType='wcm/foundation/components/parsys'}">
+      </div>
+       <div class="col-sm-4" data-sly-resource="${ @path='col-cntrl-3', resourceType='wcm/foundation/components/parsys'}">
+      </div>
+ </div>
+ 
+

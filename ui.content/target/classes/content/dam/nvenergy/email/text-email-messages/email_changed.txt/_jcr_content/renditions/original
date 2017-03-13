@@ -1,0 +1,44 @@
+﻿<Date>
+
+<Name>
+<CoAppName>
+<MailAddress>
+<StreetLine1>
+<StreetLine2>
+<StreetLine3>
+<City>, <State> <Zip>
+
+Re:	Account Number:		<AcctNo>
+	Service Address:	<SvcStreet>
+				<SvcCity>, <SvcState>  <SvcZip>
+
+Dear Customer: 
+
+The credit reference information you requested is listed below.  If you have any questions, please call our Customer Service Department (702) 402-5555 or (800) 331-3103.  Our customer service representatives are available to assist you 24 hours a day, seven days a week excluding holidays.
+
+Credit Information (within the last 12 months):
+
+Dates of Service*: <TurnOn> to <TurnOff>
+
+*Please Note: If no service termination date is provided, then service for this account is still active as of the date on this Letter of Credit.
+
+Number of Late Notices in the last 12 months:
+	10-Day				<tenday>
+	48-Hour				<twoday>
+	
+Number of Service Disconnects:		<disconnect>
+Number of Late Payments:		<latepay>
+Number of Returned Checks:		<returned>
+
+Secured by a Deposit:			<deposit>
+
+
+
+Sincerely,
+
+
+
+
+Customer Contact
+NVEnergy
+

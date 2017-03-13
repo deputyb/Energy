@@ -1,0 +1,45 @@
+<div data-sly-use.accordionSection="${'com.nvenergy.nvenergy.core.models.AccordionSection'}">
+   <sly data-sly-test.show="${accordionSection.northListItems.size<=0}">
+      <div class="cq-placeholder" data-emptytext="Configure Accordion Component"></div>
+   </sly>
+   <div data-sly-test="${!show}">
+      <sly data-sly-test.editmode="${!wcmmode.edit && !wcmmode.design}"/>
+      <sly data-sly-test="${!editmode}">
+         <div class="editmode">
+            <!-- comment out class parbase for accordion to be open and editable without animation -->
+            <div class="accordion nve-accordion-item-wrapper ac-container">
+               <sly data-sly-list.item="${accordionSection.northListItems}">
+                  <div class="nve-accordion-item">
+                     <input id="ac-${itemList.index}"  type="checkbox"/>
+                     <label for="ac-${itemList.index}">
+                        <h2 class="nve-accordion-item-title">${item.sectionTitle}</h2>
+                     </label>
+                     <article>
+                        <sly data-sly-test.parsysname="accord${itemList.index}">
+                           <div data-sly-resource="${@path=parsysname , resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap="${!wcmmode.edit && !wcmmode.design}"></div>
+                        </sly>
+                     </article>
+                  </div>
+               </sly>
+            </div>
+         </div>
+      </sly>
+      <sly data-sly-test="${editmode}">
+         <div class="accordion nve-accordion-item-wrapper ac-container">
+            <sly data-sly-list.item="${accordionSection.northListItems}">
+               <div class="nve-accordion-item">
+                  <input id="ac-${itemList.index}"  type="checkbox"/>
+                  <label for="ac-${itemList.index}">
+                     <h2 class="nve-accordion-item-title">${item.sectionTitle}</h2>
+                  </label>
+                  <article>
+                     <sly data-sly-test.parsysname="accord${itemList.index}">
+                        <div data-sly-resource="${@path=parsysname , resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap="${!wcmmode.edit && !wcmmode.design}"></div>
+                     </sly>
+                  </article>
+               </div>
+            </sly>
+         </div>
+      </sly>
+   </div>
+</div>

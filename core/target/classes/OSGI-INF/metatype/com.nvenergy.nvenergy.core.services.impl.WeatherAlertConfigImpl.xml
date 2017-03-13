@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl">
+    <OCD id="com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl" name="%com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl.name" description="%com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl.description">
+        <AD id="weather_alerts_node_path" type="String" default="/content/NVEnergy/en/systempages/weatheralert/jcr:content/content/weatheralert" name="%com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl.weather_alerts_node_path.name" description="%com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl.weather_alerts_node_path.description"/>
+    </OCD>
+    <Designate pid="com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl">
+        <Object ocdref="com.nvenergy.nvenergy.core.services.impl.WeatherAlertConfigImpl"/>
+    </Designate>
+</metatype:MetaData>
